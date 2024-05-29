@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+     <div class="menu container">
+        <a href="#" class="logo">logo</a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="images/menu.png" class="menu-icono" alt="menu">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <div>
+            <ul>
+                <li class="submenu">
+                    <img id="img-carrito" src="images/car.svg" alt="car">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito">Vaciar Carrito</a>
+
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+     </div>
+
+     <div class="header-content container">
+        <div class="header-txt">
+            <span>Bienvenid@ a nuestra tienda</span>
+            <h1>OFERTAS ESPECIALES</h1>
+            <p>
+            Ofertas especiales como lo son estas frutas y verduras frescas como son la lechuga, 
+            para hacer tus alimentos mas frescos, tambien a compañarlo de tomates rojitos, frescos, y un 
+            pepino verde que se vea deliciosamente fresco.
+
+            </p>
+
+            <div class="butons">
+                <a href="#" class="btn-1">Informacion</a>
+                <a href="#" class="btn-1">Leer mas</a>
+            </div>
+            
+        </div>
+
+          <div class="header-img">
+           <img src="images/bag.png" alt="">
+           </div>
+
+     </div>
+
+    </header>
+
+    <section class="oferts container">
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>
+                   Podras disfrutar de un brocoli fresco que llevar y acompañar en tus platos para 
+                   darle un sabor crujiente y fresco, lo podrias acompañar con unas frescas y deliciosas 
+                   espinacas, junto con su berenjena la cual le dara otro toque a tus comidas.
+                </h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s1.png" alt="">
+            </div>
+        </div>
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>
+                    Tambien con estos productos de excelente calidad, podras llevarlos al nivel 
+                    que deseas como hacer jugos deliciosos y demasiados frescos para así darle vida 
+                    a tu cuerpo.
+                </h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s2.png" alt="">
+            </div>
+        </div>
+
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>
+                    Nada mas delicioso que unos lacteos frescos, en este caso la leche que se ve 
+                    fresca para hacer tus mañanas increibles
+                </h3>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s3.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <main class="products container">
+
+        <h2>PRODUCTOS</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="images/pr1.png" alt="">
+                <div class="product-txt">
+                    <h3>LECHE DE SOYA SABOR NATURAL</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">11000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al Carrito
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/pr2.png" alt="">
+                <div class="product-txt">
+                    <h3>BEBIDA INSTANTANEA DE FRESA, SABOR NATURAL</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">15500</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al Carrito
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="box">
+                <img src="images/pr3.png" alt="">
+                <div class="product-txt">
+                    <h3>FRUTOS SECOS, DE ALMENDRAS</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">12500</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/pr4.png" alt="">
+                <div class="product-txt">
+                    <h3>SOYA SABOR UVA</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">19000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr5.png" alt="">
+                <div class="product-txt">
+                    <h3>SNACK DE CHOCOLATE</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">19900</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr6.png" alt="">
+                <div class="product-txt">
+                    <h3>CHISP DE VERDURAS</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">8000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr7.png" alt="">
+                <div class="product-txt">
+                    <h3>cAJA DE GALLETAS RELLENAS DE MERMELADA</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">25000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr8.png" alt="">
+                <div class="product-txt">
+                    <h3>LECHE SANTA CLARA</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">8000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr9.png" alt="">
+                <div class="product-txt">
+                    <h3>TARRO DE CHOCOLATE XIOLAT</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">26000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr10.png" alt="">
+                <div class="product-txt">
+                    <h3>SNACK DE CHOCOLATE MARCA NESTLE</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">50000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/pr11.png" alt="">
+                <div class="product-txt">
+                    <h3>MAICITOS FRESCOS </h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">17000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/pr12.png" alt="">
+                <div class="product-txt">
+                    <h3>CHISP MARCA ASANITAS</h3>
+                    <p>CALIDAD </p>
+                    <p class="precio">36000</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar mas</div>
+    </main>
+
+    <section class="Testimonial container">
+        <span>Testimoniales</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonial-content">
+            <div class="testimonial-1">
+                <p>
+                    EXCELENTE CALIDAD DE PRODUCTOS FRESCOS, Y DE UN DELICIOSO SABOR.
+                </p>
+                <img src="images/starts.png" alt="">
+                <h4>CLIENTE: SAMANTHA BOLIVAR</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    ME ENCANTO LOS CHIPS DE SABOR DE VERDURAS Y LOS SNAKS TIENEN UNA CROCANCIA
+                    DELICIOSA, QUE HACE TENER UNA MARAVILLOSA EXPERIENCIA.
+                </p>
+                <img src="images/starts.png" alt="">
+                <h4>CLIENTE: MARIA FERNANDA CARDONA</h4>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
